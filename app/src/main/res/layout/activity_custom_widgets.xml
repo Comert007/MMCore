@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="GridPasswordView" />
+
+            <ww.com.core.widget.GridPasswordView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:pass_type="*"
+                app:radius="20px"
+                app:stork_color="@color/colorPrimary"
+                app:stork_with="4px"
+                app:text_color="@color/colorAccent"
+                app:vi_bg_color="#00ff00" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ww.com.core.widget.GridPasswordView
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="RoundImageView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+
+                <ww.com.core.widget.RoundImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@mipmap/landscape"
+                    app:borderRadius="30px"
+                    app:type="1" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+
+                <ww.com.core.widget.RoundImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@mipmap/landscape" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="TranslateTabBar" />
+
+            <ww.com.core.widget.TranslateTabBar
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:lineWidth="match_parent"
+                app:text="@array/title_goods_tabbar"
+                app:textColor="@color/translate_tab_button_selector"
+                app:textSize="30px" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ww.com.core.widget.TranslateTabBar
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    app:lineWidth="90px"
+                    app:text="@array/title_goods_tabbar"
+                    app:textColor="#ff00ff"
+                    app:textSize="30px"
+                    app:translateLineColor="#00ff00"
+                    app:translateLineHeight="30px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <View
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#000000" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <View
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#000000" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="TranslateTabBar" />
+
+            <ww.com.core.widget.SeePassEditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:drawableRight="@drawable/see_pass_btn_selector"
+                android:inputType="textPassword" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

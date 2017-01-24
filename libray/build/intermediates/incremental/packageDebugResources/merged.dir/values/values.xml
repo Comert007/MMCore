@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridPasswordView"><attr format="dimension" name="radius"/><attr format="dimension" name="stork_with"/><attr format="color" name="vi_bg_color"/><attr format="color" name="stork_color"/><attr format="color" name="text_color"/><attr format="string" name="pass_type"/></declare-styleable>
+    <declare-styleable name="RoundImageView"><attr format="dimension" name="borderRadius"/><attr format="integer" name="type">
+            <enum name="type_circle" value="0"/>
+            <enum name="type_round" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="TranslateTabBar"><attr format="reference|color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="color" name="translateLineColor"/><attr format="color" name="bottomLineColor"/><attr format="color" name="spliteLineColor"/><attr format="integer" name="buttonCount"/><attr format="reference" name="text"/><attr format="dimension" name="translateLineHeight"/><attr format="dimension" name="lineWidth">
+            <enum name="match_parent" value="-1"/>
+        </attr></declare-styleable>
+    <item name="about_version_code" type="id">false</item>
+    <item name="auto_focus" type="id"/>
+    <item name="commit" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="is_scale_fontsize_tag" type="id"/>
+    <item name="is_scale_tag" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="mobile" type="id"/>
+    <item name="name" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="split" type="id">false</item>
+    <item name="street" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="app_name">Libray</string>
+    <string name="image_select">Image Select</string>
+</resources>

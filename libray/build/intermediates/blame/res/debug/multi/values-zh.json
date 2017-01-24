@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 45,
+                        "endOffset": 58
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 46,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 58,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 58,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 207,
+                    "endColumn": 55,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 55,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 47,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endColumn": 47,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 59,
+                    "endOffset": 366
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 59,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 371,
+                    "endColumn": 52,
+                    "endOffset": 419
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 52,
+                        "endOffset": 373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 424,
+                    "endColumn": 59,
+                    "endOffset": 479
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 378,
+                        "endColumn": 59,
+                        "endOffset": 433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 484,
+                    "endColumn": 54,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 438,
+                        "endColumn": 54,
+                        "endOffset": 488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 60,
+                    "endOffset": 595
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 493,
+                        "endColumn": 60,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 600,
+                    "endColumn": 69,
+                    "endOffset": 665
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endColumn": 69,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 670,
+                    "endColumn": 83,
+                    "endOffset": 749
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 83,
+                        "endOffset": 703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 754,
+                    "endColumn": 44,
+                    "endOffset": 794
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 708,
+                        "endColumn": 44,
+                        "endOffset": 748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 799,
+                    "endColumn": 42,
+                    "endOffset": 837
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 753,
+                        "endColumn": 42,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 842,
+                    "endColumn": 51,
+                    "endOffset": 889
+                },
+                "from": {
+                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 51,
+                        "endOffset": 843
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+apply plugin: 'maven'
+
+def MAVEN_LOCAL_PATH = 'http://121.40.51.40:8082/nexus/content/repositories/ww/'
+def ARTIFACT_ID = 'wwcore'
+def VERSION_NAME = '2.0.1'
+def GROUP_ID = 'com.ww.core'
+def ACCOUNT = 'admin'
+def PASSWORD = 'admin123'
+
+//task androidJavadocs(type: Javadoc) {
+//    source = android.sourceSets.main.java.srcDirs
+//    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+//}
+//
+//task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
+//    classifier = 'javadoc'
+//    from androidJavadocs.destinationDir
+//}
+//
+//task androidSourcesJar(type: Jar) {
+//    classifier = 'sources'
+//    from android.sourceSets.main.java.srcDirs
+//}
+
+//artifacts {
+//    archives androidSourcesJar
+//    archives androidJavadocsJar
+//}
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: MAVEN_LOCAL_PATH) {
+                authentication(userName: ACCOUNT, password: PASSWORD)
+            }
+            pom.project {
+                name ARTIFACT_ID
+                version VERSION_NAME
+                artifactId ARTIFACT_ID
+                groupId GROUP_ID
+                packaging 'aar'
+                description 'ww core'
+            }
+        }
+    }
+}

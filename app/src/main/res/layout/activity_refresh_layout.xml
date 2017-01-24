@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ww.com.core.widget.CustomSwipeRefreshLayout
+        android:id="@+id/srl_custom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ww.com.core.widget.CustomRecyclerView
+            android:id="@+id/rv_custom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ww.com.core.widget.CustomSwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/btn_to_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="24dp"
+        android:onClick="onToUp"
+        android:text="回到顶部" />
+</FrameLayout>

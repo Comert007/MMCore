@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridPasswordView">
+        <attr name="radius" format="dimension" />
+        <attr name="stork_with" format="dimension" />
+        <attr name="vi_bg_color" format="color" />
+        <attr name="stork_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="pass_type" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" format="dimension" />
+        <attr name="type" format="integer">
+            <enum name="type_circle" value="0" />
+            <enum name="type_round" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TranslateTabBar">
+        <!--item文字颜色-->
+        <attr name="textColor" format="reference|color" />
+        <!--item文字的大小-->
+        <attr name="textSize" format="dimension" />
+        <!--移动线颜色-->
+        <attr name="translateLineColor" format="color" />
+        <!--底部颜色-->
+        <attr name="bottomLineColor" format="color" />
+        <!--分割线颜色-->
+        <attr name="spliteLineColor" format="color" />
+        <!--按钮数量-->
+        <attr name="buttonCount" format="integer" />
+        <!--预览文本-->
+        <attr name="text" format="reference" />
+        <attr name="translateLineHeight" format="dimension" />
+        <attr name="lineWidth" format="dimension">
+            <enum name="match_parent" value="-1" />
+        </attr>
+    </declare-styleable>
+</resources>
