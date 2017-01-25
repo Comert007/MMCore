@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+    <RelativeLayout
+        android:id="@+id/return_layout"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape">
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_restore" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_layout"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape">
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_check" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
