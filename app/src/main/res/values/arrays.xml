@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="title_goods_tabbar">
+        <item>出售(0)</item>
+        <item>缺货(0)</item>
+        <item>出售(0)</item>
+    </array>
+</resources>

@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity implements ImagePick.OnImage
             @Override
             public void onSuccess(int requestCode, Map<String, Integer> successPermissions) {
                 // successPermissions 成功时返回的所以权限
-                showToast("获取权限成功");
+//                showToast("获取权限成功");
+                VideoRecorderActivity.start(MainActivity.this);
             }
 
             @Override
@@ -137,6 +138,12 @@ public class MainActivity extends AppCompatActivity implements ImagePick.OnImage
     public void onLocalPhoto(View v) {
         pick.setCrop(true);
         pick.startAlbumSingle();
+    }
+
+
+    public void onRecord(View v){
+        dispose.requestPermission(CAMERA_REQUEST_CODE, Manifest.permission.CAMERA,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.RECORD_AUDIO);
     }
 
     public void onMedia(View v) {

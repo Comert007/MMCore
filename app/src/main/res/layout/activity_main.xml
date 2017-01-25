@@ -17,6 +17,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="49dp" />
 
+
+
     <Button
         android:id="@+id/btn_media"
         android:layout_width="wrap_content"
@@ -25,6 +27,16 @@
         android:layout_centerVertical="true"
         android:onClick="onMedia"
         android:text="获取相机" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="onRecord"
+        android:layout_above="@id/btn_media"
+        android:layout_centerVertical="true"
+        android:text="短视频" />
 
     <Button
         android:id="@+id/btn_local_photo"
@@ -46,6 +58,8 @@
         android:layout_centerHorizontal="true"
         android:onClick="onSdCardFreeSize"
         />
+
+
 
     <TextView
         android:layout_width="wrap_content"
