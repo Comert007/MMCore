@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\android project\useful\moker\MMCore\libray\src\main\assets"/><source path="D:\android project\useful\moker\MMCore\libray\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\android project\useful\moker\MMCore\libray\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\windward\android\MMCore\libray\src\main\assets"/><source path="D:\windward\android\MMCore\libray\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\windward\android\MMCore\libray\src\debug\assets"/></dataSet></merger>

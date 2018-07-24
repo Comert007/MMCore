@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+        "outputFile": "D:\\windward\\android\\MMCore\\libray\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "file": "D:\\windward\\android\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 149
                 },
                 "from": {
-                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "file": "D:\\windward\\android\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 194
                 },
                 "from": {
-                    "file": "D:\\android project\\useful\\moker\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "file": "D:\\windward\\android\\MMCore\\libray\\build\\intermediates\\exploded-aar\\com.github.lovetuzitong\\MultiImageSelector\\1.2\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
