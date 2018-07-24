@@ -15,6 +15,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+@Deprecated
 public class ImageUtil {
 
 	public static int imageWidth = 0;

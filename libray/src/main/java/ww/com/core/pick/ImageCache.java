@@ -15,6 +15,7 @@ import static android.os.Environment.MEDIA_MOUNTED;
 /**
  * Created by fighter on 2016/9/19.
  */
+@Deprecated
 public class ImageCache {
 
     private static final String EXTERNAL_STORAGE_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE";

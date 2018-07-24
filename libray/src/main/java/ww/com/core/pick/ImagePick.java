@@ -25,6 +25,7 @@ import ww.com.core.exception.StorageSpaceException;
 import ww.com.core.utils.FileUtils;
 import ww.com.core.utils.PhotoUtils;
 
+@Deprecated
 public class ImagePick {
     private static final long SMALL_SIZE = 20 * 1024 * 1024;  // 20MB
     private static final int NORMAL_WIDTH = 720;   // 图片默认保留的宽
