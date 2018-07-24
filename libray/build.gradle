@@ -35,11 +35,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
 
     compile 'com.jakewharton:butterknife:8.4.0'
-
-    // https://github.com/lovetuzitong/MultiImageSelector
     compile 'com.github.lovetuzitong:MultiImageSelector:1.2'
-////    https://github.com/ArthurHub/Android-Image-Cropper
-//    compile 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
 }
-
-apply from: './nexus_maven.gradle'
+apply from: './binary.gradle'
